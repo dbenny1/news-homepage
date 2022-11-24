@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap');
+
+*,
+*::after,
+*::before {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --orange: hsl(35, 77%, 62%);
+    --red: hsl(5, 85%, 63%);
+    --offWhite: hsl(36, 100%, 99%);
+    --grayBlue: hsl(233, 8%, 79%);
+    --drkBlue: hsl(236, 13%, 42%);
+    --veryDrkBlue: hsl(240, 100%, 5%);
+    --fntSml: 0.8rem;
+    --fntMd: 1.05rem;
+    --fntXl: 2.7rem;
+}
+
+body {
+    font-size: 15px;
+    font-family: 'Inter', sans-serif;
+    background-color: white;
+    padding: 0 5%;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
+}
+
+header a, header img {
+    text-decoration: none;
+    height: auto;
+    max-width: 100%;
+}
+
+header i {
+    font-size: 2rem;
+}
+
+/* Main */
+main .readMre {
+}
+
+.readMre img {
+    height: auto;
+    max-width: 100%;
+}
+
+.readMre h1 {
+    font-size: var(--fntXl);
+    font-weight: 800;
+}
+
+.readMre p {
+    font-size: var(--fntMd);
+    line-height: 1.6em;
+    color: var(--veryDrkBlue);
+    margin: 1rem 0;
+}
+
+.readMre a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    font-size: var(--fntMd);
+    background-color: var(--red);
+    padding: 0.8rem 2rem;
+    letter-spacing: 0.3em;
+}
+
+main .new {
+    background-color: var(--veryDrkBlue);
+    color: white;
+}
+
+.new h3 {
+    color: var();
+}
