@@ -15,16 +15,27 @@
     --grayBlue: hsl(233, 8%, 79%);
     --drkBlue: hsl(236, 13%, 42%);
     --veryDrkBlue: hsl(240, 100%, 5%);
-    --fntSml: 0.8rem;
-    --fntMd: 1.05rem;
-    --fntXl: 2.7rem;
 }
+
+/* General */
 
 body {
     font-size: 15px;
     font-family: 'Inter', sans-serif;
     background-color: white;
     padding: 0 5%;
+}
+
+body p {
+    color: var(--grayBlue);
+}
+
+h3 {
+    font-size: 1.2rem;
+}
+
+h2 {
+    font-size: 2.2rem;
 }
 
 /* Header */
@@ -47,6 +58,7 @@ header i {
 
 /* Main */
 main .readMre {
+    border: 1px solid red;
 }
 
 .readMre img {
@@ -55,32 +67,60 @@ main .readMre {
 }
 
 .readMre h1 {
-    font-size: var(--fntXl);
+    font-size: 2.7rem;
     font-weight: 800;
 }
 
 .readMre p {
-    font-size: var(--fntMd);
     line-height: 1.6em;
     color: var(--veryDrkBlue);
     margin: 1rem 0;
 }
 
-.readMre a {
+.readMre #readMre {
     display: inline-block;
     text-decoration: none;
     color: white;
-    font-size: var(--fntMd);
+    font-size: 0.9rem;
     background-color: var(--red);
-    padding: 0.8rem 2rem;
+    padding: 0.8rem 1.8rem;
     letter-spacing: 0.3em;
 }
 
+/* New */
 main .new {
     background-color: var(--veryDrkBlue);
     color: white;
+    margin: 4rem 0 2rem;
+    padding: 2rem 1rem 0;
+    border: 1px solid red;
+    line-height: 1.4em;
 }
 
-.new h3 {
-    color: var();
+main #gold {
+    color: var(--orange);
+}
+
+main .links {
+    padding: 2rem 0;
+}
+
+.links h3 {
+    margin-bottom: 0.5rem;
+}
+
+main .divider {
+    border-bottom: 1px solid var(--grayBlue);
+}
+
+/* List */
+main .lists {
+    border: 1px solid red;
+}
+
+.lists > div {
+    display: grid;
+    grid-template-columns: 0.5fr 2fr;
+    column-gap: 2rem;
+    padding: 2rem 0;
 }
